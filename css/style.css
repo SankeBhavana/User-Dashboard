@@ -1,20 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 .main{
-    width: 150%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/bg-login-page-jpg);
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(..//images/bg-login-page.jpg);
     background-position: center;
     background-size: cover;
-    height: 150vh;
+    height: 100vh;
 }
 
 .navbar{
     width: 30px;
     height: 30px;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 
 .icon{
@@ -37,6 +38,7 @@
     width: 300px;
     float: left;
     height: 70px;
+    
 }
 
 ul{
@@ -48,7 +50,7 @@ ul{
 
 ul li{
     list-style: none;
-    margin-left: 80px;
+    margin-left: 50px;
     margin-top: 27px;
     font-size: 17px;
 }
@@ -87,9 +89,9 @@ ul li a:hover{
 }
 
 .content{
-    width: 1200px;
-    height: auto;
-    margin: auto;
+    width: auto !important;
+    height: auto !important;
+    margin: auto !important;
     color: #fff;
     position: relative;
 }
@@ -146,7 +148,7 @@ ul li a:hover{
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: 20px;
-    left: 840px;
+    left: 800px;
     transform: translate(0%,-5%);
     border-radius: 10px;
     padding: 25px;
@@ -259,10 +261,3 @@ ul li a:hover{
     color: #000;
     font-weight: bold;
 }
-
-
-
-
-
-
-
